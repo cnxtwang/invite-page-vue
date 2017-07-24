@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "xtwang <xtwang@thoughtworks.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --port 4000 --config webpack.config.js"
+  },
   "devDependencies": {
     "css-loader": "^0.28.4",
     "extract-loader": "^0.1.0",
